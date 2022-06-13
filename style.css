@@ -88,7 +88,7 @@ header nav {
 }
 
 .navbar-wrapper ul li a:hover {
-    color: var(--white);
+    color: var(--ligt-green);
     font-weight: 500;
 }
 
@@ -119,6 +119,10 @@ header nav {
         justify-content: center;
         align-items: center;
         padding: 0;
+    }
+
+    .navbar-wrapper ul li {
+        margin-bottom: 44px;
     }
 
     .shop-cart {
@@ -191,6 +195,14 @@ header nav {
     font-size: 18px;
     letter-spacing: 1px;
     margin-bottom: 80px;
+    transition: all .3s linear;
+}
+
+.green-btn:hover {
+    border: 1px solid var(--ligt-green);
+    color: var(--ligt-green);
+    font-weight: 500;
+    background-color: transparent;
 }
 
 .tripple-card {
@@ -204,6 +216,11 @@ header nav {
 
 .tripple-card .image-container img {
     width: 100%;
+    transition: all 0.3s linear;
+}
+
+.tripple-card:hover .image-container img {
+    transform: scale(1.15);
 }
 
 .tripple-card .tripple-card-content {
