@@ -257,6 +257,27 @@ header nav {
     box-shadow: none;
 }
 
+@media screen and (max-width: 992px) {
+    .tripples {
+        padding-top: 112px;
+        padding-bottom: 123px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tripples {
+        padding-top: 82px;
+        padding-bottom: 93px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .tripples {
+        padding-top: 52px;
+        padding-bottom: 63px;
+    }
+}
+
 /* double styles */
 
 .double {
@@ -511,4 +532,52 @@ header nav {
 
 .send-box-main form button:hover {
     color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    .send-box-main {
+        width: 100%!important;
+    }
+
+    .send-box-main h1 {
+        font-size: 32px;
+        margin-bottom: 44px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .send-box-main {
+        width: 100%!important;
+    }
+
+    .send-box-main h1 {
+        font-size: 28px;
+        margin-bottom: 32px;
+    }
+
+    .send-box-main form input {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .send-box {
+        display: none;
+    }
+
+    .send-box-main h1 {
+        font-size: 28px;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .send-box-main form input {
+        width: 100%;
+    }
+
+    .send-box-main form button {
+        margin-left: 0;
+        margin-top: 16px;
+    }
 }
